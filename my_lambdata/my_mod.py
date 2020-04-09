@@ -10,12 +10,6 @@ def enlarge(n):
 
 
 
-# Single function to take a list, turn it into a series and add it to a dataframe as a new column
-def list_into_df(lst, dtf):
-    new_col = pd.Series(lst)
-    df_new = pd.concat([dtf, new_col], axis=1)
-    return df_new
-
 
 
 # this code breaks our ability to import enlarge from other files

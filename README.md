@@ -1,17 +1,17 @@
 # lambdata13
 
 
-##lambdata_p
+## my_lambdata
 
 Package for unit3
 
 Using the package from PIPY instructions:
 
-from lambda_p.my_mod import enlarge
+from my_lambda.my_mod import enlarge
 
 
 
-##Installation
+## Installation
 
 cd path/to/lambdata
 
@@ -21,10 +21,10 @@ pipenv install pandas
 
 To use in a notebook
 
-pip install -i https://test.pypi.org/simple/ lambdata_p
+pip install -i https://test.pypi.org/simple/ my_lambdata
 
 ## Usage
 
 An example script, a collection of classes that may be built upon
 
-python lambdata_p/my_script.py
+python my_lambdata/my_script.py

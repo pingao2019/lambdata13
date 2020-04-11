@@ -2,10 +2,10 @@
 
 class Calc:
 
-​
+​ 
 
     def __init__(self, a, b):
-
+      ''' __init__ is called as a constructor. This method is called when an object is created from a class and it allows the class to initialize the attributes of the class.'''
         self.a = a
 
         self.b = b
